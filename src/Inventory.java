@@ -7,7 +7,7 @@ public class Inventory {
         stocks.add(stock);
     }
 
-    public String inventoryToString() {
+    public String toString() {
         String description = "";
         for (Stock stock : stocks) {
             description += String.format("%s%n", stock);

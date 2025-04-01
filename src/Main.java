@@ -27,7 +27,7 @@ class Main {
         Scanner io = new Scanner(System.in);
         Inventory clothingInventory = new Inventory();
         System.out.println("\t\t\t** Welcome to the Inventory System! **");
-        System.out.println("Enter an stock type or q to quit.");
+        System.out.println("Enter a stock type or q to quit.");
         String input = io.next();
         while (!input.equals("q")) {
             readStock(io, input, clothingInventory);
@@ -35,7 +35,7 @@ class Main {
             input = io.next();
         }
         System.out.println("Inventory List:");
-        System.out.println(clothingInventory.inventoryToString());
+        System.out.println(clothingInventory);
         System.out.println("Thanks!");
     }
 }
