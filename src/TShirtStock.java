@@ -8,7 +8,7 @@ public class TShirtStock extends Stock {
     }
   
     public String toString() {
-      return String.format("T-Shirt Quantity:%d Price:%.2f Color:%s", quantity, price, color);
+      return String.format("T-Shirt Quantity:%d Price:$%.2f Color:%s", quantity, price, color);
     }
     
   }

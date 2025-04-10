@@ -8,6 +8,6 @@ public class JeansStock extends Stock {
     }
 
     public String toString() {
-        return String.format("Jeans Quantity:%d Price:%.2f Style:%s", quantity, price, style);
+        return String.format("Jeans Quantity:%d Price:$%.2f Style:%s", quantity, price, style);
     }
 }
